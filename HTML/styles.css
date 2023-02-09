@@ -75,6 +75,7 @@ text-align: center;
 textarea {
     display: block;
     margin: auto;
+    margin-top: .5em;
     width: 75%;
     background-color: silver;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
