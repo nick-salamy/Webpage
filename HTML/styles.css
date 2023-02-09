@@ -15,14 +15,9 @@ body{
 
 h1, p {
     color: white;
-    /*filter: blur(1px);*/
-    transition: .5s;
-    transform: rotate(10deg);
 }
 
-h1:hover, p:hover {
-    filter: blur(0px);
-}
+
 
 fieldset {
     border: none;
