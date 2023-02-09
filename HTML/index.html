@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+      <h1>Hello World</h1>
+      <p>This is what it looks like to need glasses</p>
+      <form method="post" action="file:///C:/Users/nicks/Desktop/HTML/thanks.html">
+          <fieldset class="personal info">
+              <label for="firstname" id="firstname-label">First Name<input type='text' id='firstname' placeholder="Enter first name here" required></label>
+              <label for="lastname" id="lastname-label">Last Name<input type='text' id='lastname' placeholder="Enter last name here" required></label>
+              <label for="age" id="age-label">Age<input type='age' id='age' placeholder="Enter age here" min="18" max="75" required></label>
+          </fieldset>
+          <fieldset required>
+            <label for="school" id="school-label"><input class="inline" type='radio' name="reference" id="school"> School</label>
+            <label for="work" id="work-label"><input type='radio' class="inline" name="reference" id="work"> Work</label>
+            <label for="online" id="online-label"><input type='radio' class="inline" name="reference" id="online"> Online</label>
+            <label for="extra comments" id="extra-comments-label">Any additional comments?<textarea rows="4" cols="40"placeholder='Enter comments here'></textarea></label>
+            <button type="submit">Submit</button>
+          </fieldset>
+      </form>
+      <div class="gallery">
+          <img src="http://www.shutterstock.com/blog/wp-content/uploads/sites/5/2016/03/fall-trees-road-1.jpg">
+          <img src="https://askthepilot.com/wp-content/uploads/2012/07/Islet.jpg">
+          <img src="http://eskipaper.com/images/images-2.jpg">
+      </div>
+    </div>
+</body>
+</html>
