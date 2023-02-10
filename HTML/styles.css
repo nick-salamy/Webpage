@@ -39,6 +39,8 @@ input, label {
 label {
     padding: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Adjust the spaces between letters */
+    letter-spacing: 1px;
 
 }
 
