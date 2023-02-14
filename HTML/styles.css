@@ -13,6 +13,13 @@ body{
     mix-blend-mode: lighter;
 }
 
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+
 h1, p {
     color: white;
 }
@@ -22,6 +29,8 @@ h1, p {
 fieldset {
     border: none;
     padding-bottom: 1.5rem;
+    border-bottom: 4px solid rgb(46, 45, 45);
+    border-bottom-width: 75%;
 }
 .personal info {
     width: 75%;
@@ -39,6 +48,8 @@ input, label {
 label {
     padding: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* Adjust the spaces between letters */
+    letter-spacing: 1px;
 
 }
 
@@ -75,9 +86,11 @@ text-align: center;
 textarea {
     display: block;
     margin: auto;
+    margin-top: .5em;
     width: 75%;
     background-color: silver;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 4px;
     
 }
 textarea::placeholder {
@@ -108,4 +121,21 @@ button {
     object-fit: cover;
     padding: 2rem;
     border-radius: 48px;
+}
+
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dcdcdc;
+    transition: .6s;
+}
+
+
+a:active {
+    color: black;
+    transition: 0.6s;
 }
