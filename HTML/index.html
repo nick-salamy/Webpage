@@ -11,17 +11,23 @@
 <body>
     <div class="container">
       <header>
-      <h1>Hello World</h1>
-      <p>This form is for my learning purposes</p>
-      <p>Please fill out this basic info</p>
+        <h1>Hello World</h1>
+        <span><p>This form is for my learning purposes</p></span>
+        <p>Please fill out this basic info, click which info you want to input.</p>
+        <nav>
+        <ul>
+            <li><a href='#personal-info'>Peronsal info</a></li>
+            <li><a href='#other-info'>Other info</a></li>
+        </ul>
+        </nav>
       </header>
       <form method="post" action="file:///C:/Users/nicks/Desktop/HTML/thanks.html">
-          <fieldset class="personal info">
+          <fieldset class="personal info" id="personal-info">
               <label for="firstname" id="firstname-label">First Name<input type='text' id='firstname' placeholder="Enter first name here" required></label>
               <label for="lastname" id="lastname-label">Last Name<input type='text' id='lastname' placeholder="Enter last name here" required></label>
               <label for="age" id="age-label">Age<input type='age' id='age' placeholder="Enter age here" min="18" max="75" required></label>
           </fieldset>
-          <fieldset required>
+          <fieldset required id="other-info">
             <label>What are you</label>
             <label for="school" id="school-label"><input class="inline" type='radio' name="reference" id="school"> School</label>
             <label for="work" id="work-label"><input type='radio' class="inline" name="reference" id="work"> Work</label>
